@@ -25,7 +25,7 @@ IPROUTE_ADD="192.168.200.1/24"
 #MIKROTIK
 MIKROTIK_IP="192.168.200.1"     # IP MikroTik yang baru
 MIKROTIK_S="192.168.200.0"
-MPORT="30005"
+MPORT="30003"
 #CISCO
 SPORT="30002"
 
@@ -42,7 +42,7 @@ IP_Pref="/24"
 
 # FIX DHCP
 IP_FIX="192.168.23.10"
-IP_MAC=""
+IP_MAC="00:50:79:66:68:05"
 
 # Fungsi untuk memeriksa status exit
 check_status() {
